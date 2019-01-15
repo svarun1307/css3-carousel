@@ -1,0 +1,199 @@
+#imageslider 
+{
+	position:relative;
+	margin:0 auto;
+    width: 920px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#imageslider .justoneslides 
+{
+	position:relative;
+    width: 6000px;
+    height: 500px;
+	-webkit-animation: myfirst 20s ease-in-out 1s infinite normal; 
+    animation: myfirst 20s ease-in-out 1s infinite normal;
+}
+
+
+#imageslider .slide 
+{
+    float: left;
+    width: 920px;
+    height: 500px;
+	
+}
+
+
+.circleBase 
+{
+    border-radius: 60%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+	
+}
+
+
+.type1 
+{
+	position:absolute;
+    width: 15px;
+    height: 15px;
+    background: #424242;
+	opacity:0.4;
+    border: 0px solid red;
+	z-index:10000;
+	bottom:20;
+	left:30%;
+	-webkit-animation: myfirst1 20s ease-in-out 1s infinite normal; 
+    animation: myfirst1 20s ease-in-out 1s infinite normal;
+	
+}
+
+.type2 
+{
+	position:absolute;
+    width: 15px;
+    height: 15px;
+    background: #424242;
+	opacity:0.4;
+    border: 0px solid red;
+	z-index:10000;
+	bottom:20;
+	left:40%;
+	-webkit-animation: myfirst2 20s ease-in-out 1s infinite normal; 
+    animation: myfirst2 20s ease-in-out 1s infinite normal;
+}
+
+.type3 
+{
+	position:absolute;
+    width: 15px;
+    height: 15px;
+    background: #424242;
+	opacity:0.4;
+    border: 0px solid red;
+	z-index:10000;
+	bottom:20;
+	left:50%;
+	-webkit-animation: myfirst3 20s ease-in-out 1s infinite normal; 
+    animation: myfirst3 20s ease-in-out 1s infinite normal;
+}
+
+.type4 
+{
+	position:absolute;
+    width: 15px;
+    height: 15px;
+    background: #424242;
+	opacity:0.4;
+    border: 0px solid red;
+	z-index:10000;
+	bottom:20;
+	left:60%;
+	-webkit-animation: myfirst4 20s ease-in-out 1s infinite normal; 
+    animation: myfirst4 20s ease-in-out 1s infinite normal;
+}
+
+
+.type5 
+{
+	position:absolute;
+    width: 15px;
+    height: 15px;
+    background: #424242;
+	opacity:0.4;
+    border: 0px solid red;
+	z-index:10000;
+	bottom:20;
+	left:70%;
+	-webkit-animation: myfirst5 20s ease-in-out 1s infinite normal; 
+    animation: myfirst5 20s ease-in-out 1s infinite normal;
+}
+
+
+
+@keyframes myfirst 
+{
+	0%,10%,15%{margin-left:0px;}
+    20%   {margin-left:-920px;}
+	15%   {margin-left:-920px;}
+    30%   {margin-left:-920px;}
+    40%  {margin-left:-1840px;}
+	50%  {margin-left:-1840px;}
+	60%  {margin-left:-2760px;}
+    70%  {margin-left:-2760px;}
+	80%  {margin-left:-3680px;}
+	90%  {margin-left:-3680px;}
+    100%   {margin-left:0px;}
+}
+
+@keyframes myfirst1 
+{
+    0%   {border:2px solid white;opacity:1;}
+    10%   {border:2px solid white;opacity:1;}
+	20%   {border:0px solid green;opacity:0.4;}
+	30%   {border:0px solid green;opacity:0.4;}
+	40%   {border:0px solid green;opacity:0.4;}
+	60%   {border:0px solid green;opacity:0.4;}
+	80%   {border:0px solid green;opacity:0.4;}
+	90%   {border:0px solid green;opacity:0.4;}
+    100%   {border:0px solid green;opacity:0.4;}
+}
+
+@keyframes myfirst2 
+{
+    0%   {border:0px solid green;opacity:0.4;}
+    10%   {border:0px solid green;opacity:0.4;}
+	20%   {border:2px solid white;opacity:1;}
+	30%   {border:2px solid white;opacity:1;}
+	40%   {border:0px solid green;opacity:0.4;}
+	60%   {border:0px solid green;opacity:0.4;}
+	80%   {border:0px solid green;opacity:0.4;}
+	90%   {border:0px solid green;opacity:0.4;}
+    100%   {border:0px solid green;opacity:0.4;}
+}
+
+@keyframes myfirst3
+{
+    0%   {border:0px solid green;opacity:0.4;}
+    10%   {border:0px solid green;opacity:0.4;}
+	20%   {border:0px solid green;opacity:0.4;}
+	30%   {border:0px solid green;opacity:0.4;}
+	40%   {border:2px solid white;opacity:1;}
+	50%   {border:2px solid white;opacity:1;}
+	60%   {border:0px solid green;opacity:0.4;}
+	80%   {border:0px solid green;opacity:0.4;}
+	90%   {border:0px solid green;opacity:0.4;}
+    100%   {border:0px solid green;opacity:0.4;}
+}
+
+@keyframes myfirst4
+{
+    0%   {border:0px solid green;opacity:0.4;}
+    10%   {border:0px solid green;opacity:0.4;}
+	20%   {border:0px solid green;opacity:0.4;}
+	30%   {border:0px solid green;opacity:0.4;}
+	40%   {border:0px solid green;opacity:0.4;}
+	50%   {border:0px solid green;opacity:0.4;}
+	60%   {border:2px solid white;opacity:1;}
+	70%   {border:2px solid white;opacity:1;}
+	80%   {border:0px solid green;opacity:0.4;}
+	90%   {border:0px solid green;opacity:0.4;}
+    100%   {border:0px solid green;opacity:0.4;}
+}
+
+@keyframes myfirst5
+{
+    0%   {border:0px solid green;opacity:0.4;}
+    10%   {border:0px solid green;opacity:0.4;}
+	20%   {border:0px solid green;opacity:0.4;}
+	30%   {border:0px solid green;opacity:0.4;}
+	40%   {border:0px solid green;opacity:0.4;}
+	50%   {border:0px solid green;opacity:0.4;}
+	60%   {border:0px solid green;opacity:0.4;}
+	70%   {border:0px solid green;opacity:0.4;}
+	80%   {border:2px solid white;opacity:1;}
+	90%   {border:2px solid white;opacity:1}
+    100%   {border:0px solid green;opacity:0.4;}
+}
